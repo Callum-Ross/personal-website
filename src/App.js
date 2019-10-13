@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import Arrow from "react-arrow";
 import ScrollUpButton from "react-scroll-up-button";
 function App() {
@@ -12,8 +12,9 @@ function App() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       />
+      <link href="css/hover.css" rel="stylesheet" media="all"></link>
       <div className="App">
-        <div className="sticky" style={{ paddingBottom: "4%" }}>
+        <div className="sticky" style={{ paddingBottom: "7%" }}>
           <div className=" Title1 ">
             <h1>Callum Ross</h1>
           </div>
@@ -23,19 +24,29 @@ function App() {
         </div>
         <div
           className="sticky"
-          style={{ position: "sticky", paddingTop: "35%", color: "white" }}
+          style={{
+            position: "sticky",
+            paddingTop: "33%",
+            color: "white"
+          }}
         >
           <h3>Computer Science student at QUT</h3>
           <Arrow
             direction="down"
             shaftWidth={10}
-            shaftLength={10}
-            headWidth={30}
-            headLength={20}
-            fill="#1F2638"
-            stroke="white"
-            strokeWidth={1}
-            onClick={() => alert("You clicked the arrow!")}
+            shaftLength={0}
+            headWidth={50}
+            headLength={40}
+            fill="white"
+            stroke="#1F263"
+            strokeWidth={0.5}
+            onClick={() =>
+              window.scrollTo({
+                top: 1000,
+                bottom: 0,
+                behavior: "smooth"
+              })
+            }
           />
         </div>
       </div>
@@ -54,67 +65,129 @@ function App() {
       <div
         style={{
           minHeight: "95vh",
+          paddingTop: "5%",
+          paddingLeft: "15%",
+          paddingRight: "15%",
 
           zIndex: "10",
           display: "flex",
           flexDirection: "row",
-          backgroundColor: "#2B314B"
+          flexWrap: "wrap",
+          backgroundColor: "#2B314B",
+          justifyContent: "center"
         }}
       >
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
+        </Card>
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+        <Card
+          bg="secondary"
+          className="zoom"
+          text="white"
+          style={{ width: "18rem", height: "35rem" }}
+        >
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
         </Card>
       </div>
     </>

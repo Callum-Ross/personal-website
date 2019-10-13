@@ -15,7 +15,9 @@
   top: 0;
 
 }
-
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 .Title1{
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
@@ -25,6 +27,9 @@
   color:  white;
   padding-top: 2%;
   font-size: 40px;
+}
+.hover-button:hover{
+  transform: scale(1.5)
 }
 .Title2{
   z-index: 10000;
