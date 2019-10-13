@@ -3,7 +3,7 @@
   background-image: url("https://wallpaperaccess.com/full/96479.jpg");
   background-size: auto;
   font-family: 'Share Tech Mono', monospace;
-  min-height: 100vh;
+  min-height: 20vh;
   /* background-attachment: fixed; */
   scrollbar-color: #87ceeb #ff5621;
 }
@@ -15,8 +15,15 @@
   top: 0;
 
 }
+::-webkit-scrollbar { 
+  display: none; 
+  scrollbar-width: "0"
+}
 .zoom:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom2:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .Title1{
   text-align: center;
