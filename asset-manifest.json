@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cross000/personal-website/static/css/main.c0b39601.chunk.css",
+    "main.js": "/cross000/personal-website/static/js/main.37065a49.chunk.js",
+    "main.js.map": "/cross000/personal-website/static/js/main.37065a49.chunk.js.map",
+    "runtime-main.js": "/cross000/personal-website/static/js/runtime-main.885036d2.js",
+    "runtime-main.js.map": "/cross000/personal-website/static/js/runtime-main.885036d2.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/cross000/personal-website/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.3da0a967.chunk.js": "/cross000/personal-website/static/js/2.3da0a967.chunk.js",
+    "static/js/2.3da0a967.chunk.js.map": "/cross000/personal-website/static/js/2.3da0a967.chunk.js.map",
+    "index.html": "/cross000/personal-website/index.html",
+    "precache-manifest.297d91101b4aff4bc892fc190ac33779.js": "/cross000/personal-website/precache-manifest.297d91101b4aff4bc892fc190ac33779.js",
+    "service-worker.js": "/cross000/personal-website/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/cross000/personal-website/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.c0b39601.chunk.css.map": "/cross000/personal-website/static/css/main.c0b39601.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.885036d2.js",
+    "static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.3da0a967.chunk.js",
+    "static/css/main.c0b39601.chunk.css",
+    "static/js/main.37065a49.chunk.js"
+  ]
+}
